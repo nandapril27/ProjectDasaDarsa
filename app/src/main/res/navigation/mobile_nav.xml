@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_nav"
+    app:startDestination="@id/fragmentHome">
+
+    <fragment
+        android:id="@+id/fragmentHome"
+        android:name="com.example.dasadarsa.Fragment_Home"
+        android:label="fragment__home"
+        tools:layout="@layout/fragment__home" />
+    <fragment
+        android:id="@+id/fragmentKonsul"
+        android:name="com.example.dasadarsa.Fragment_Konsul"
+        android:label="fragment__konsul"
+        tools:layout="@layout/fragment__konsul" />
+    <fragment
+        android:id="@+id/fragmentMateri"
+        android:name="com.example.dasadarsa.Fragment_Materi"
+        android:label="fragment__materi"
+        tools:layout="@layout/fragment__materi" />
+    <fragment
+        android:id="@+id/fragmentNilai"
+        android:name="com.example.dasadarsa.Fragment_Nilai"
+        android:label="fragment__nilai"
+        tools:layout="@layout/fragment__nilai" />
+    <fragment
+        android:id="@+id/fragmentScan"
+        android:name="com.example.dasadarsa.Fragment_Scan"
+        android:label="fragment__scan"
+        tools:layout="@layout/fragment__scan" />
+</navigation>

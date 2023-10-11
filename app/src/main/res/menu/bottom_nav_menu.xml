@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fragmentHome"
+        android:icon="@drawable/home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/fragmentDocument"
+        android:icon="@drawable/document"
+        android:title="Materi" />
+
+    <item
+        android:id="@+id/fragmentScan"
+        android:icon="@drawable/scan"
+        android:title="Materi" />
+
+    <item
+        android:id="@+id/fragmentExam"
+        android:icon="@drawable/exam"
+        android:title="Nilai" />
+
+    <item
+        android:id="@+id/fragmentKonsul"
+        android:icon="@drawable/konsul"
+        android:title="Konsultasi" />
+
+</menu>
